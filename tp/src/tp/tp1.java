@@ -20,8 +20,7 @@ public class tp1 {
 			sc = new Scanner(file);
 			//palabras.add(file);
 
-			// hasNextLine() devuelve un valor booleano, indicando si existe o
-			// no una siguiente línea a leer
+	
 			while (sc.hasNextLine())
 				System.out.println(sc.nextLine());
 	
